@@ -1,0 +1,49 @@
+* {
+    margin:0; padding:0;
+}
+
+html {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+}
+td{
+text-align: center;
+  }
+.icon {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    color: black;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    font-variant: small-caps;
+    font: 0.5em "Lucida Grande", Lucida, Verdana, sans-serif;
+    /*background-color: white;*/
+    /*background-color: red;*/
+    font-weight: bold;
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;    
+}
+
+.icon:hover {
+    height: 150px;
+    width: 150px;
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+}
+
+table {
+/*background-color: green;*/
+height: 200px;
+overflow: hidden;
+position: fixed; 
+top: 50%;
+left: 50%;
+width: 350px;
+/*background-color: red;*/
+margin-top: -100px;
+margin-left: -175px;
+}
