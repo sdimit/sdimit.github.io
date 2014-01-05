@@ -18,7 +18,7 @@ h1{
     width: 350px;
     opacity: 50%;
     background-color: clear;
-    color: #111;
+    color: #aaa;
     font-family: "Helvetica Neue";
     margin-top: -50px;
     margin-left: -175px;
@@ -69,6 +69,7 @@ tr{
     /*background-color: white;*/
     /*background-color: red;*/
     font-weight: bold;
+    cursor: pointer;
 
     /*-webkit-transition: width 0.5s, height 0.5s;*/
     transition: background-size 0.5s, width 0.5s, height 0.5s;    
@@ -100,93 +101,13 @@ transition: width 0.5s, height 0.5s;
 }
 
 table {
-/*background-color: green;*/
-height: 348px;
+height: 300px;
 overflow: hidden;
 position: fixed; 
 top: 50%;
 left: 50%;
-width: 348px;
+width: 350px;
 /*background-color: red;*/
 margin-top: -100px;
 margin-left: -175px;
 }
-
-
-/** {
-    margin:0; padding:0;
-}
-
-html {
-    height: 100%;
-    background: white;
-    background: radial-gradient(circle, #fff 20%, #ccc);
-    background-size: cover;
-}
-td{
-text-align: center;
-  }
-.icon {
-    margin: auto;
-    height: 100px;
-    width: 100px;
-    color: black;
-
-    background-repeat: no-repeat;
-    background-position: center;
-    font-variant: small-caps;
-        background-size: 140px;
-    
-    font: 0.5em "Lucida Grande", Lucida, Verdana, sans-serif;
-    /*background-color: white;*!/
-    /*background-color: red;*!/
-    font-weight: bold;
-    -webkit-transition: width 0.5s, height 0.5s, background-size 0.5s;
-    transition: width 0.5s, height 0.5s, background-size 0.5s;   
-}
-
-.icon:hover {
-    height: 100px;
-    width: 100px;
-    background-size: 90px;
-    -webkit-transition: width 0.5s, height 0.5s, background-size 0.5s;
-    transition: width 0.5s, height 0.5s, background-size 0.5s;
-}
-
-.square {
-    margin: auto;
-    height: 100px;
-    width: 100px;
-    color: black;
-    -webkit-perspective: 500; /* Safari and Chrome *!/
-    
--webkit-transition: -webkit-transform 0.5s ease-in-out;
-transition: -webkit-transform 0.5s ease-in-out;
-}
-
-.square:hover {
-width: 100px;
-height: 100px;
-
--webkit-transform-style: preserve-3d; /* Safari and Chrome *!/
--webkit-perspective: 500; /* Safari and Chrome *!/
--webkit-transform: rotateX(9deg) rotateY(7deg) rotateX(9deg);
-
--webkit-transition: -webkit-transform 0.5s ease-in-out;
-transition: -webkit-transform 0.5s ease-in-out;
-}
-tr{
-    background-color: gray;
-}
-table {
-/*background-color: green;*!/
-height: 100px;
-overflow: hidden;
-position: fixed; 
-top: 50%;
-left: 50%;
-width: 750px;
-/*background-color: red;*!/
-margin-top: -50px;
-margin-left: -375px;
-}*/
