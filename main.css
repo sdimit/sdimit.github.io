@@ -83,4 +83,5 @@ p{
     font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 10px;
     margin-left: 19px;
+    transition: color 1s;
 }
