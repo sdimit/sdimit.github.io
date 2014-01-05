@@ -4,10 +4,10 @@
 
 html {
     height: 100%;
-    background: white;
-    background: radial-gradient(circle, #444 20%, #111);
+    background: radial-gradient(circle, #444 20%, #222);
     background-size: cover;
 }
+
 h1{
     text-align: center;
     height: 100px;
@@ -19,95 +19,37 @@ h1{
     opacity: 50%;
     background-color: clear;
     color: #aaa;
-    font-family: "Helvetica Neue";
-    margin-top: -50px;
+    margin-top: -55px;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin-left: -175px;
 }
-
+td {
+    text-align: center; 
+    vertical-align: middle;
+    background-color:clear;
+}
 .icon {
     margin: auto;
     height: 100px;
     width: 100px;
-    color: black;
     background-repeat: no-repeat;
     background-position: center;
-    font-variant: small-caps;
-    /*font: 0em "Lucida Grande", Lucida, Verdana, sans-serif;*/
-    /*background-color: white;*/
-    /*background-color: red;*/
-    font-weight: bold;
-    background-size: 127%;
-
-    /*-webkit-transition: width 0.5s, height 0.5s;*/
-    transition: background-size 0.5s, width 0.5s, height 0.5s;    
-}
-td{
-    width: 100px;
-    /*background: white;*/
-}
-tr{
-    height: 100px;
-    /*background-color: green;*/
-}
-.icon:hover, .hovered {
-    height: 100px;
-    width: 100px;
-    background-size: 100px;
-/*    -webkit-transition: width 0.5s, height 0.5s;*/
-    /*font: 1.5em "Lucida Grande", Lucida, Verdana, sans-serif;*/
-    transition: background-size 0.5s, width 0.5s, height 0.5s;
-}
-.iconCenter {
-    margin: auto;
-    height: 100px;
-    width: 100px;
-    color: black;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-variant: small-caps;
-    /*font: 0em "Lucida Grande", Lucida, Verdana, sans-serif;*/
-    /*background-color: white;*/
-    /*background-color: red;*/
-    font-weight: bold;
     cursor: pointer;
-
-    /*-webkit-transition: width 0.5s, height 0.5s;*/
     transition: background-size 0.5s, width 0.5s, height 0.5s;    
 }
-.iconCenter:hover {
+.icon:hover {
     height: 148px;
     width: 148px;
-    
-/*    -webkit-transition: width 0.5s, height 0.5s;*/
-    /*font: 1.5em "Lucida Grande", Lucida, Verdana, sans-serif;*/
     transition: background-size 0.5s, width 0.5s, height 0.5s;
-}
-
-.square {
-    margin: auto;
-    height: 100px;
-    width: 100px;
-    color: black;
--webkit-transition: width 0.5s, height 0.5s;
-transition: width 0.5s, height 0.5s;
-}
-
-.square:hover {
-width: 100px;
-height: 100px;
-
--webkit-transition: width 0.5s, height 0.5s;
-transition: width 0.5s, height 0.5s;
 }
 
 table {
-height: 300px;
-overflow: hidden;
-position: fixed; 
-top: 50%;
-left: 50%;
-width: 350px;
-/*background-color: red;*/
-margin-top: -100px;
-margin-left: -175px;
+    height: 300px;
+    overflow: hidden;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    margin-top: -100px;
+    margin-left: -175px;
 }
