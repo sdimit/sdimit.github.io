@@ -4,24 +4,33 @@
 
 html {
     height: 100%;
-    background: radial-gradient(circle, #444 20%, #222);
+    /*background: radial-gradient(circle, #444 20%, #222);*/
+    /*background-color:  /*#ffc073;*!/ #fff000; */
+    background-color:  /*#ffc073;*/ #35363a; 
     background-size: cover;
 }
 
 h1{
+    -webkit-transform:rotate(-3deg); /* Safari and Chrome */
     text-align: center;
-    height: 100px;
+    height: 45px;
     overflow: hidden;
     position: fixed; 
     top: 50%;
-    left: 50%;
-    width: 350px;
     opacity: 50%;
-    background-color: clear;
-    color: #aaa;
-    margin-top: -55px;
+    /*width: 350px;*/
+    /*left: 50%;*/
+    left: 0px;
+    width: 100%;
+    /*background-color: black;*/
+    background-color: yellow;
+    /*color: #aaa;*/
+    color: black;
+    margin-top: -75px;
     font-family: 'Open Sans Condensed', sans-serif;
-    margin-left: -175px;
+    /*margin-left: -175px;*/
+    margin-left: 0px;
+    -webkit-transform: rotateX(30deg);
 }
 td {
     text-align: center; 
@@ -44,12 +53,23 @@ td {
 }
 
 table {
-    height: 300px;
+    height: 150px;
     overflow: hidden;
     position: fixed; 
     top: 50%;
     left: 50%;
     width: 350px;
-    margin-top: -100px;
+    margin-top: -25px;
     margin-left: -175px;
+}
+
+
+.tablecontainer {
+    height: 100px;
+    width: 100%; margin-left: 0px; left: 0px;
+    background-color: yellow;
+    overflow: hidden;
+    position: fixed; 
+    top: 50%;
+    margin-top: 0px;
 }
