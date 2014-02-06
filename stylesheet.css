@@ -11,33 +11,35 @@ body {
     width: 380px;
     height: 273px;
     background-color: purple;
+    position: relative;
 }
 
 #photo img {
+    position: absolute;
     background-color: red;
+    height: 100px;
 }
 
 #bio-icon {
-    padding: 5px 5px 5px 10px;
+    padding: 5px;
     background-color: #00ab6f;
-    font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
-    position: relative;
-    font-style: italic;
+    position: absolute;
+    bottom: 60px;
 }
 
 #resume-icon {
-    padding: 5px 5px 5px 10px;
+    padding: 5px;
     background-color: #ccf600;
-    font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
-    position: relative;
-    font-style: italic;
+    position: absolute;
+    bottom: 25px;
+}
+
+#photo div:hover {
+    padding: 5px 5px 5px 10px;
 }
 
 a {
-    color: black;
+    font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+    color: purple;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
