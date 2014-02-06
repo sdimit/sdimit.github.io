@@ -10,16 +10,19 @@ body {
 h1 {
     text-align: left;
     font: bold 75px sans-serif;
-    position: relative;
-    width: 380px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 h2 {
+    padding: 0px;
     color: gray;
-    text-align: center;
+    text-align: left;
     font: bold 75px sans-serif;
+}
+
+h1, h2, #photo {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #outer {
@@ -31,12 +34,8 @@ h2 {
 }
 
 #photo {
-    margin-left: auto ;
-    margin-right: auto ;
-    width: 380px;
     height: 300px;
-  //  background-color: rgba(128, 0, 127, 0.48);
-      background-color: red;
+    background-color: red;
     position: relative;
 }
 
