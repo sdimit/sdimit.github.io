@@ -10,13 +10,18 @@ body {
 h1 {
     text-align: left;
     font: bold 75px sans-serif;
+        /*line-height: 55px;*/
+    position: relative;
 }
 
 h2 {
-    padding: 0px;
-    color: gray;
+    top: 35px;
+    color: silver;
     text-align: left;
     font: bold 75px sans-serif;
+    position: relative;
+    /*white-space: nowrap;*/
+    /*line-height: 55px;*/
 }
 
 h1, h2, #photo {
