@@ -109,11 +109,11 @@ li {
     top: 60px;
 }
 
-#bio-icon a{
+a #bio-icon{
     color: #ccf600;
 }
 
-#resume-icon a{
+a #resume-icon{
     color:  #008b6f;
 }
 
@@ -132,4 +132,5 @@ a {
     font-size: 2em;
     font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
     text-decoration: none;
+    text-transform: uppercase;
 }
