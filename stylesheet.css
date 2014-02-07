@@ -56,13 +56,14 @@ h1, h2, #container {
 
 p {
     text-align: left;
-    padding: 10px 30px 30px;
+    padding: 20px 30px 40px;
     font: 18px "Lucida Grande", Lucida, Verdana, sans-serif;
     color: #5c5c5c;
 }
 
 ul.top-level-ul {
-    padding: 10px 30px 30px;
+    padding: 0 0 40px;
+    margin-left: 30px;
 }
 
 ul {
@@ -70,15 +71,15 @@ ul {
 }
 
 li.top-level-li {
-    padding: 10px 30px;
+    padding: 10px 30px 10px;
     font: 18px "Lucida Grande", Lucida, Verdana, sans-serif;
-    margin-top: 10px;
+    margin-top: 20px;
     color: gray;
     background-color: rgba(216, 216, 216, 0.2);
 }
 
 li {
-    padding: 10px 30px 10px 10px;
+    padding: 10px 30px 0 10px;
     text-align: justify;
     font: 18px "Lucida Grande", Lucida, Verdana, sans-serif;
     margin-top: 10px;
